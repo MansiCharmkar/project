@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    form {
+        display: flex;
+        gap: 2px;
+        flex-direction: column;
+        /* background-color: aquamarine; */
+    }
+    
+    .container {
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(217, 220, 223);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .child-container {
+        width: 430px;
+        height: 520px;
+        background-color: rgb(255, 254, 254);
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        border-radius: 8px;
+    }
+    
+    .child-container h1 {
+        margin-bottom: 30px;
+    }
+    
+    .name-box {
+        display: flex;
+        margin-bottom: 10px;
+        gap: 10px;
+    }
+    
+    .name-box input {
+        width: 200px;
+        height: 25px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: 1px solid rgb(93, 89, 89);
+        border-radius: 7px;
+    }
+    
+    .email input {
+        width: 416px;
+        height: 30px;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        border: 1px solid rgb(93, 89, 89);
+        border-radius: 7px;
+    }
+    
+    .radio-button {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 15px;
+        margin-top: 15px;
+    }
+    
+    .query {
+        width: 200px;
+        height: 35px;
+        display: flex;
+        justify-content: space-evenly;
+        border: 1px solid rgb(93, 89, 89);
+        border-radius: 7px;
+    }
+    
+    .query span {
+        margin-right: 65px;
+        text-align: center;
+        justify-content: center;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    
+    .textarea textarea {
+        width: 418px;
+        height: 70px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        border-radius: 7px;
+    }
+    
+    .btn button {
+        width: 418px;
+        height: 40px;
+        margin-right: 20px;
+        border-radius: 7px;
+        background-color: rgb(2, 96, 59);
+        border: none;
+        color: white;
+        margin-top: 20px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="child-container">
+            <h1>Contact Us</h1>
+            <form>
+                <div class="name-box">
+                    <div class="name"> <label for="fname">First Name:*</label>
+                        <input type="text" required="fname">
+                    </div>
+                    <div class="name"> <label for="lname">Last Name:*</label>
+                        <input type="text" required="lname">
+                    </div>
+                </div>
+
+                <label for="email">Email Address:*</label>
+                <div class="email"> <input type="text" required="email">
+                </div>
+                <label for="q">Query Type:*</label>
+                <div class="radio-button ">
+                    <div class="query">
+                        <input type="radio" name="q"><span>General Enquiry</span>
+                    </div>
+                    <div class="query">
+                        <input type="radio" name="q"><span>Support Request</span>
+                    </div>
+                </div>
+                <label for="msg ">Message:*</label>
+                <div class="textarea "><textarea placeholder=" " name="msg"></textarea></div>
+                <div class="checkbox"><input type="checkbox"> I consent to being contacted by the team *
+                </div>
+                <div class="btn "><button>Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
+
+</html>
