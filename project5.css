@@ -1,0 +1,171 @@
+    * {
+        margin: 0px;
+        padding: 0px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .main-container {
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(144, 144, 151);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* gap: 1rem; */
+    }
+    
+    .child-container {
+        width: 50%;
+        height: 70%;
+        background-color: rgb(183, 183, 214);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        border-radius: 10px;
+    }
+    
+    .left-container {
+        width: 30%;
+        height: 55vh;
+        background-image: url("image.jpg");
+        border-radius: 10px;
+    }
+    
+    .span1 {
+        color: rgb(107, 115, 122);
+    }
+    
+    .span2 {
+        color: rgb(244, 247, 250);
+    }
+    
+    .right-container h1 {
+        margin-bottom: 1rem;
+    }
+    
+    .right-container p {
+        margin-bottom: 1rem;
+        color: rgb(95, 103, 109);
+    }
+    
+    .label {
+        margin-bottom: .7rem;
+    }
+    
+    .right-container input {
+        margin-bottom: 2rem;
+        margin-left: 20%;
+    }
+    
+    .btn {
+        display: flex;
+        align-items: right;
+        justify-content: right;
+    }
+    
+    .btn button:hover {
+        background-color: rgb(26, 24, 24);
+    }
+    
+    .left-container-content {
+        margin-top: 2%;
+        margin-right: 20%;
+    }
+    
+    .btn1 {
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+        margin-top: 3%;
+        margin-left: 8%;
+        border: none;
+    }
+    
+    .info {
+        display: flex;
+        margin-top: 10%;
+    }
+    
+    .YOUR-INFO {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10%;
+    }
+    
+    .btn1:hover {
+        background-color: rgb(30, 170, 167);
+        color: wheat;
+        cursor: pointer;
+    }
+    
+    .btn1-active {
+        background-color: aqua;
+    }
+    
+    .YOUR-INFO>p {
+        color: gray;
+        text-align: center;
+    }
+    
+    .YOUR-INFO>span {
+        color: aliceblue;
+        text-align: center;
+        font-size: 13px;
+        text-transform: uppercase;
+    }
+    
+    .info-p {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5%;
+    }
+    
+    .Personal-info {
+        height: auto;
+    }
+    
+    .Personal-info>p {
+        display: block;
+        margin-top: -4%;
+    }
+    
+    .lable-input-p {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .lable-input-p>label {
+        font-size: 20px;
+        /* display: block; */
+    }
+    
+    .lable-input-p>input {
+        height: 30px;
+        width: 250px;
+        margin-top: 3%;
+        margin-left: 0%;
+    }
+    
+    .step-btn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .step-btn button {
+        width: 70px;
+        height: 30px;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(42, 50, 65);
+        color: white;
+        cursor: pointer;
+    }
+    
+    .step-btn button:hover {
+        background-color: rgb(24, 22, 22);
+    }
